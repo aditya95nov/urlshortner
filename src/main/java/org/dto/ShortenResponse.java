@@ -1,0 +1,6 @@
+package org.dto;
+
+public record ShortenResponse(
+        String code,
+        String shortUrl
+) {}
