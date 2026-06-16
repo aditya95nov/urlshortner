@@ -1,6 +1,6 @@
-package org.service;
+package org.urlshortner.service;
 
-import org.exception.InvalidUrlException;
+import org.urlshortner.exception.InvalidUrlException;
 import org.springframework.stereotype.Component;
 
 import java.net.URI;

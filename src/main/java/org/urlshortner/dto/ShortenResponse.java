@@ -1,4 +1,4 @@
-package org.dto;
+package org.urlshortner.dto;
 
 public record ShortenResponse(
         String code,

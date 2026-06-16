@@ -1,6 +1,6 @@
-package org.repository;
+package org.urlshortner.repository;
 
-import org.entity.UrlMapping;
+import org.urlshortner.entity.UrlMapping;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

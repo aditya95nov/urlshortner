@@ -1,4 +1,4 @@
-package org.exception;
+package org.urlshortner.exception;
 
 public class AliasAlreadyExistsException extends RuntimeException {
 

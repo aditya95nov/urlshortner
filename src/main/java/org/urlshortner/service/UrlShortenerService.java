@@ -1,12 +1,12 @@
-package org.service;
+package org.urlshortner.service;
 
 import lombok.RequiredArgsConstructor;
-import org.dto.ShortenResponse;
-import org.entity.UrlMapping;
-import org.exception.AliasAlreadyExistsException;
-import org.exception.UrlNotFoundException;
-import org.generator.Base62Encoder;
-import org.repository.UrlMappingRepository;
+import org.urlshortner.dto.ShortenResponse;
+import org.urlshortner.entity.UrlMapping;
+import org.urlshortner.exception.AliasAlreadyExistsException;
+import org.urlshortner.exception.UrlNotFoundException;
+import org.urlshortner.generator.Base62Encoder;
+import org.urlshortner.repository.UrlMappingRepository;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 

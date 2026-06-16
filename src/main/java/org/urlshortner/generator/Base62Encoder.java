@@ -1,4 +1,4 @@
-package org.generator;
+package org.urlshortner.generator;
 
 import org.springframework.stereotype.Component;
 

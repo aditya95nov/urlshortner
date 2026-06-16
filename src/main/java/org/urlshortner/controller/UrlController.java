@@ -1,9 +1,9 @@
-package org.controller;
+package org.urlshortner.controller;
 
 import lombok.RequiredArgsConstructor;
-import org.dto.ShortenRequest;
-import org.dto.ShortenResponse;
-import org.service.UrlShortenerService;
+import org.urlshortner.dto.ShortenRequest;
+import org.urlshortner.dto.ShortenResponse;
+import org.urlshortner.service.UrlShortenerService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
